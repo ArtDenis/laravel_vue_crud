@@ -60,7 +60,7 @@ __webpack_require__.r(__webpack_exports__);
         }).then(function (response) {
           //console.log(response);
           if (response.config.headers['X-XSRF-TOKEN']) {
-            localStorage.setItem('token', ans.config.headers['X-XSRF-TOKEN']);
+            localStorage.setItem('token', response.config.headers['X-XSRF-TOKEN']);
 
             _this.$router.push({
               name: 'cabinet.index'

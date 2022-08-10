@@ -46,7 +46,7 @@ __webpack_require__.r(__webpack_exports__);
           email: _this.email,
           password: _this.password
         }).then(function (ans) {
-          console.log(ans.response);
+          console.log(123);
 
           if (ans.config.headers['X-XSRF-TOKEN']) {
             localStorage.setItem('token', ans.config.headers['X-XSRF-TOKEN']);
