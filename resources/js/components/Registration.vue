@@ -47,7 +47,7 @@
                     }).then( response => {
                         //console.log(response);
                         if (response.config.headers['X-XSRF-TOKEN']) {
-                            localStorage.setItem('token', ans.config.headers['X-XSRF-TOKEN']);
+                            localStorage.setItem('token', response.config.headers['X-XSRF-TOKEN']);
                             this.$router.push({ name: 'cabinet.index' });
                         } else {
                             localStorage.removeItem('token');
