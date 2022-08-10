@@ -32,7 +32,7 @@
                         email: this.email,
                         password: this.password
                     }).then( ans => {
-                        console.log(ans.response);
+                        console.log(123);
                         if (ans.config.headers['X-XSRF-TOKEN']) {
                             localStorage.setItem('token', ans.config.headers['X-XSRF-TOKEN']);
                             this.$router.push({ name: 'cabinet.index' });
