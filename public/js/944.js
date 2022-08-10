@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[944],{944:(e,n,t)=>{t.r(n),t.d(n,{default:()=>l});const s={name:"page404"};const l=(0,t(900).Z)(s,(function(){var e=this,n=e.$createElement;return(e._self._c||n)("div",[e._v("Страницы не существует 404")])}),[],!1,null,"d7f550f2",null).exports}}]);
